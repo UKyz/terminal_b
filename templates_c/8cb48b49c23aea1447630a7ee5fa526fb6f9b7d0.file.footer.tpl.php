@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 11:50:14
+<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 13:53:46
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:9424299775b6030d6c0d050-22668300%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cb48b49c23aea1447630a7ee5fa526fb6f9b7d0' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl',
-      1 => 1533025503,
+      1 => 1533038024,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
   'unifunc' => 'content_5b6030d6c1e286_38000011',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5b6030d6c1e286_38000011')) {function content_5b6030d6c1e286_38000011($_smarty_tpl) {?><!-- footer -->
 <div class="agile-footer w3ls-section">
@@ -25,16 +25,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="list-footer">
             <ul class="footer-nav">
                 <li>
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Accueil</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="about.html">À propos</a>
                 </li>
                 <li>
                     <a href="services.html">Menu</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="gallery.html">Gallerie</a>
                 </li>
                 <li>
                     <a href="contact.html">Contact</a>
@@ -45,15 +45,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="w3_agile-footer-grids">
                 <div class="col-md-3  w3_agile-footer1 f1">
                     <h2>
-                        <a href="index.php">Beverages</a>
+                        <a href="index.php">Terminal B</a>
                     </h2>
-                    <h5 class="f1">about us</h5>
+                    <h5 class="f1">À Propos de Nous</h5>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem atus error sit volupt unde omnis iste
                         iatis un.</p>
                 </div>
                 <div class="col-md-6  w3_agile-footer1 f2">
                     <div class="col-md-4 col-sm-4 col-xs-4 inner-li">
-                        <h5>Drink</h5>
+                        <h5>Boissons</h5>
                         <ul class="w3ls-footer-bottom-list">
                             <li>
                                 <a class="page-scroll scroll" href="#about">volupta</a>
@@ -73,19 +73,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-4 inner-li">
-                        <h5>buy online</h5>
+                        <h5>Menus</h5>
                         <ul class="w3ls-footer-bottom-list">
                             <li>
-                                <a href="#">iste</a>
+                                <a href="#">Menu 1</a>
                             </li>
                             <li>
-                                <a href="#">perspi</a>
+                                <a href="#">Menu 2</a>
                             </li>
                             <li>
-                                <a href="#">natus</a>
+                                <a href="#">Menu 3</a>
                             </li>
                             <li>
-                                <a href="#">atisu</a>
+                                <a href="#">Menu 4</a>
                             </li>
                         </ul>
                     </div>
@@ -100,6 +100,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             </li>
                             <li>
                                 <a href="#">media</a>
+                            </li>
+                            <li>
+                                <a href="./index.php?action=change_lang">English</a>
                             </li>
                         </ul>
                     </div>
@@ -134,7 +137,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </div>
         </div>
         <div class="agileits_w3layouts-copyright">
-            <p>© 2018 Beverages. All Rights Reserved | Design by
+            <p>© 2018 Termianl B. Tout droit réservé | Design by UKyz &
                 <a href="http://w3layouts.com/" target="=_blank"> W3layouts </a>
             </p>
         </div>

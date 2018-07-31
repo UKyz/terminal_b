@@ -5,10 +5,10 @@
 
         <!--/banner-info-->
         <div class="baner-info">
-            <h4>Fais maison </h4>
+            <h4>Concept bar </h4>
             <h3>
-                delicieux cocktails </h3>
-            <p>Itaque earum rerum hic tenetur a sapiente delectus </p>
+                Le Terminal B </h3>
+            <p>Et si vous voyagiez à 2 pas de chez vous ? </p>
             <a class="hvr-rectangle-out w3_play_icon1" href="#"> en savoir plus</a>
         </div>
         <!--/banner-ingo-->
@@ -23,42 +23,42 @@
                 <div class="services_agile" id="services">
                     <div class="services-top">
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
-                            <div class="serviceinfo_agile ih-item circle colored effect17 active">
+                            <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a1.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/airport_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
-                                    <p>cocktails</p>
+                                    <p>Terminal B</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a2.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/america_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
-                                    <p>café</p>
+                                    <p>L'Amérique</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a3.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/arab_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
-                                    <p>boissons chaudes</p>
+                                    <p>L'Orient</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a4.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/asia_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
-                                    <p>boissons fraîches</p>
+                                    <p>L'Asie</p>
                                 </div>
                             </div>
                         </div>
@@ -70,14 +70,22 @@
         </div>
         <h3 class="w3ls-title">
             <span>à</span> propos de nous</h3>
-        <h5>Roin vel enim nec ipsum finibus.Duis euismod massa utab.</h5>
+        <h5>Quel est le concept du Terminal B ?</h5>
         <div class="col-md-7  w3ls-about-left">
-            <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-                blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-                nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus. </p>
-            <p class="about-bottom">Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-                blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-                nec ipsum.</p>
+            <p>Vous connaissiez les bars traditionnels, mais aussi les bars à manger, et bien le Terminal B est un
+                mélange des deux mais également un salon de thé et de café. </p>
+            <p class="about-bottom">Le Terminal B est bien plus encore, c'est une invitation aux voyages car il se
+                compose de 4 univers. Le premier reprend les codes du terminal aérien dont lui parvient son nom, le
+                deuxième représente la zone Asie et reprend les codes de la décoration asiatique, ensuite vient
+                l'univers de l'amérique latine, et pour finir celui de la zone orientale.
+            </p>
+            <p class="about-bottom">Le Terminal B n'est pas un simple bar comme les autres, c'est un lieu convivial,
+                chaleureux et un endroit mettant en avant le monde qui nous entoure. Notre but est de vous faire
+                voyager tout en vous sentant comme chez vous. Venez ici, entre amis ou en famille, pour passer un bon
+                moment, pour discuter, échanger, et surtout vous détendre.
+            </p>
+            <p class="about-bottom">Le Terminal B est UN BAR À VOYAGER !
+            </p>
         </div>
         <div class="col-md-5 w3ls-row">
             <div class="col-md-6 col-sm-6 wthree-about-left">

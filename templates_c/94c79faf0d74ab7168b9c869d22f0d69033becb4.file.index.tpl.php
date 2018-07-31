@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 11:55:26
+<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 15:03:12
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:14941015185b60320e53a832-20298261%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '94c79faf0d74ab7168b9c869d22f0d69033becb4' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/index.tpl',
-      1 => 1533030068,
+      1 => 1533042186,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
   'unifunc' => 'content_5b60320e58c2a0_65256345',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5b60320e58c2a0_65256345')) {function content_5b60320e58c2a0_65256345($_smarty_tpl) {?><!--/banner-section-->
 <div id="demo-1" data-zs-src='["./web/images/b3.jpg","./web/images/b5.jpg","./web/images/b1.jpg",
@@ -26,10 +26,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <!--/banner-info-->
         <div class="baner-info">
-            <h4>handcrafted </h4>
+            <h4>concept bar </h4>
             <h3>
-                soothing beverages </h3>
-            <p>Itaque earum rerum hic tenetur a sapiente delectus </p>
+                the terminal b </h3>
+            <p>What if you can travel right around the corner </p>
             <a class="hvr-rectangle-out w3_play_icon1" href="#"> read more</a>
         </div>
         <!--/banner-ingo-->
@@ -44,9 +44,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <div class="services_agile" id="services">
                     <div class="services-top">
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
-                            <div class="serviceinfo_agile ih-item circle colored effect17 active">
+                            <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a1.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/airport_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>cocktails</p>
@@ -56,7 +56,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a2.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/america_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>coffee</p>
@@ -66,7 +66,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a3.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/arab_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>Hot Beverages</p>
@@ -76,7 +76,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a4.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/asia_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>cold Beverages</p>
@@ -91,7 +91,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
         <h3 class="w3ls-title">
             <span>a</span>bout us</h3>
-        <h5>Roin vel enim nec ipsum finibus.Duis euismod massa utab.</h5>
+        <h5>What is the concept of the Terminal B ?</h5>
         <div class="col-md-7  w3ls-about-left">
             <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
                 blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim

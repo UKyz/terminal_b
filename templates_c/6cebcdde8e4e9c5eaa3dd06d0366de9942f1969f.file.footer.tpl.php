@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 11:55:26
+<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 13:53:50
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1461461255b60320e58f251-43527697%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cebcdde8e4e9c5eaa3dd06d0366de9942f1969f' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/footer.tpl',
-      1 => 1533025503,
+      1 => 1533038024,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
   'unifunc' => 'content_5b60320e632de6_88056998',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5b60320e632de6_88056998')) {function content_5b60320e632de6_88056998($_smarty_tpl) {?><!-- footer -->
 <div class="agile-footer w3ls-section">
@@ -73,19 +73,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-4 inner-li">
-                        <h5>buy online</h5>
+                        <h5>Menu</h5>
                         <ul class="w3ls-footer-bottom-list">
                             <li>
-                                <a href="#">iste</a>
+                                <a href="#">Menu 1</a>
                             </li>
                             <li>
-                                <a href="#">perspi</a>
+                                <a href="#">Menu 2</a>
                             </li>
                             <li>
-                                <a href="#">natus</a>
+                                <a href="#">Menu 3</a>
                             </li>
                             <li>
-                                <a href="#">atisu</a>
+                                <a href="#">Menu 4</a>
                             </li>
                         </ul>
                     </div>
@@ -100,6 +100,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             </li>
                             <li>
                                 <a href="#">media</a>
+                            </li>
+                            <li>
+                                <a href="./index.php?action=change_lang">Français</a>
                             </li>
                         </ul>
                     </div>

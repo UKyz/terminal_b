@@ -5,10 +5,10 @@
 
         <!--/banner-info-->
         <div class="baner-info">
-            <h4>handcrafted </h4>
+            <h4>concept bar </h4>
             <h3>
-                soothing beverages </h3>
-            <p>Itaque earum rerum hic tenetur a sapiente delectus </p>
+                the terminal b </h3>
+            <p>What if you can travel right around the corner </p>
             <a class="hvr-rectangle-out w3_play_icon1" href="#"> read more</a>
         </div>
         <!--/banner-ingo-->
@@ -23,9 +23,9 @@
                 <div class="services_agile" id="services">
                     <div class="services-top">
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
-                            <div class="serviceinfo_agile ih-item circle colored effect17 active">
+                            <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a1.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/airport_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>cocktails</p>
@@ -35,7 +35,7 @@
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a2.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/america_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>coffee</p>
@@ -45,7 +45,7 @@
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a3.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/arab_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>Hot Beverages</p>
@@ -55,7 +55,7 @@
                         <div class="col-md-3 col-sm-4 col-xs-4 service_grid text-center">
                             <div class="serviceinfo_agile ih-item circle colored effect17">
                                 <div class="img">
-                                    <img src="./web/images/a4.jpg" class="img-responsive" alt="img">
+                                    <img src="./web/images/asia_1.jpg" class="img-responsive" alt="img">
                                 </div>
                                 <div class="info">
                                     <p>cold Beverages</p>
@@ -70,7 +70,7 @@
         </div>
         <h3 class="w3ls-title">
             <span>a</span>bout us</h3>
-        <h5>Roin vel enim nec ipsum finibus.Duis euismod massa utab.</h5>
+        <h5>What is the concept of the Terminal B ?</h5>
         <div class="col-md-7  w3ls-about-left">
             <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
                 blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim

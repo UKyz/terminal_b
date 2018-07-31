@@ -52,19 +52,19 @@
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-4 inner-li">
-                        <h5>buy online</h5>
+                        <h5>Menu</h5>
                         <ul class="w3ls-footer-bottom-list">
                             <li>
-                                <a href="#">iste</a>
+                                <a href="#">Menu 1</a>
                             </li>
                             <li>
-                                <a href="#">perspi</a>
+                                <a href="#">Menu 2</a>
                             </li>
                             <li>
-                                <a href="#">natus</a>
+                                <a href="#">Menu 3</a>
                             </li>
                             <li>
-                                <a href="#">atisu</a>
+                                <a href="#">Menu 4</a>
                             </li>
                         </ul>
                     </div>
@@ -79,6 +79,9 @@
                             </li>
                             <li>
                                 <a href="#">media</a>
+                            </li>
+                            <li>
+                                <a href="./index.php?action=change_lang">Français</a>
                             </li>
                         </ul>
                     </div>
