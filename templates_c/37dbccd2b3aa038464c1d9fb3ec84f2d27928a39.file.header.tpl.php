@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 12:19:29
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:00:50
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11400094855b60320e51f8e4-52189213%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '37dbccd2b3aa038464c1d9fb3ec84f2d27928a39' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/header.tpl',
-      1 => 1533032368,
+      1 => 1533124766,
       2 => 'file',
     ),
   ),
@@ -97,7 +97,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <a href="icons.html" class="menu__link">icons</a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_6">
-                            <a href="contact.html" class="menu__link"> Contact </a>
+                            <a href="index.php?page=contact" class="menu__link"> Contact </a>
                         </li>
                     </ul>
                 </nav>
@@ -105,22 +105,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
     </div>
     <!--// header -->
-    <div class="w3_agilits_inner_bottom">
-        <div class="wthree_agile_login">
-            <ul>
-                <li>
-                    <i class="fa fa-phone" aria-hidden="true"></i> (+33) 03 20 01 02 03</li>
-                <li>
-                    <i class="fa fa-envelope-o list-icon" aria-hidden="true"></i>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    <a href="./index.php?action=change_lang">Français</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</div>
 <!--//banner-bottom--><?php }} ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 12:19:35
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:00:48
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:19690126185b6030d6ab3228-24576669%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3ad2900304e8122c6546e9429ef7e2ce596eb90a' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/header.tpl',
-      1 => 1533032368,
+      1 => 1533124766,
       2 => 'file',
     ),
   ),
@@ -85,7 +85,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <a href="index.php" class="menu__link"> Accueil </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_2">
-                            <a href="about.php" class="menu__link"> À Propos </a>
+                            <a href="about.html" class="menu__link"> À Propos </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_3">
                             <a href="services.html" class="menu__link">Services</a>
@@ -97,7 +97,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <a href="icons.html" class="menu__link">icons</a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_6">
-                            <a href="contact.html" class="menu__link"> Contact </a>
+                            <a href="index.php?page=contact" class="menu__link"> Contact </a>
                         </li>
                     </ul>
                 </nav>
@@ -105,22 +105,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
     </div>
     <!--// header -->
-    <div class="w3_agilits_inner_bottom">
-        <div class="wthree_agile_login">
-            <ul>
-                <li>
-                    <i class="fa fa-phone" aria-hidden="true"></i> 03 20 01 02 03</li>
-                <li>
-                    <i class="fa fa-envelope-o list-icon" aria-hidden="true"></i>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    <a href="./index.php?action=change_lang">English</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</div>
 <!--//banner-bottom--><?php }} ?>

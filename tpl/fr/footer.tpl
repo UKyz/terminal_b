@@ -116,7 +116,7 @@
             </div>
         </div>
         <div class="agileits_w3layouts-copyright">
-            <p>© 2018 Termianl B. Tout droit réservé | Design by UKyz &
+            <p>© 2018 Termianl B. Tout droit réservé | Designé par UKyz &
                 <a href="http://w3layouts.com/" target="=_blank"> W3layouts </a>
             </p>
         </div>

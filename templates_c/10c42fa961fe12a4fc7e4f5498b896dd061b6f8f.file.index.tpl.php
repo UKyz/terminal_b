@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 14:47:33
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:01:28
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1436928525b6030d6bf5277-01720877%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '10c42fa961fe12a4fc7e4f5498b896dd061b6f8f' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/index.tpl',
-      1 => 1533041252,
+      1 => 1533124887,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_5b6030d6c091a8_91706044',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b6030d6c091a8_91706044')) {function content_5b6030d6c091a8_91706044($_smarty_tpl) {?><!--/banner-section-->
+<?php if ($_valid && !is_callable('content_5b6030d6c091a8_91706044')) {function content_5b6030d6c091a8_91706044($_smarty_tpl) {?>    <div class="w3_agilits_inner_bottom">
+        <div class="wthree_agile_login">
+            <ul>
+                <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i> 03 20 01 02 03</li>
+                <li>
+                    <i class="fa fa-envelope-o list-icon" aria-hidden="true"></i>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-wrench" aria-hidden="true"></i>
+                    <a href="./index.php?action=change_lang">English</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--/banner-section-->
 <div id="demo-1" data-zs-src='["./web/images/b3.jpg","./web/images/b5.jpg","./web/images/b1.jpg",
     "./web/images/b2.jpg","./web/images/b4.jpg"]' data-zs-overlay="dots">
     <div class="demo-inner-content">
@@ -30,7 +48,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <h3>
                 Le Terminal B </h3>
             <p>Et si vous voyagiez à 2 pas de chez vous ? </p>
-            <a class="hvr-rectangle-out w3_play_icon1" href="#"> en savoir plus</a>
+            <a class="hvr-rectangle-out w3_play_icon1" href="#" id="btn_more_about"> en savoir plus</a>
         </div>
         <!--/banner-ingo-->
     </div>
@@ -89,7 +107,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <div class="clearfix"></div>
             </div>
         </div>
-        <h3 class="w3ls-title">
+        <h3 class="w3ls-title" id="more_about">
             <span>à</span> propos de nous</h3>
         <h5>Quel est le concept du Terminal B ?</h5>
         <div class="col-md-7  w3ls-about-left">
@@ -333,7 +351,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <!-- //timings -->
 </div>
 <!-- services -->
-<!-- testimonials -->
+<!-- testimonials
 <div class="testimonials section-w3ls" id="testimonials">
     <div class="container">
         <h3 class="w3ls-title">
@@ -381,10 +399,100 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         </div>
                     </div>
                 </div>
-                <!--//screen-gallery-->
             </div>
         </div>
     </div>
 </div>
-<!-- //testimonials -->
+//testimonials -->
+<!-- contact
+<div class="contact-bottom main-pos panel-sec section-w3ls" id="contact">
+    <div class="container">
+        <h3 class="w3ls-title">
+            <span>c</span>ontact us</h3>
+        <div class="contact-right-w3l">
+            <form action="#" method="post">
+                <div class="contact-input">
+                    <input type="text" class="name" name="name" placeholder="First Name" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="text" class="name" name="name" placeholder="Last Name" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="email" class="name" name="name" placeholder="Email" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="text" class="name" name="name" placeholder="Subject" required="">
+                </div>
+                <div class="contact-input">
+                    <textarea placeholder="Your Message" required=""></textarea>
+                </div>
+                <input type="submit" value="SEND MESSAGE">
+            </form>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+//contact -->
+<!-- localisation -->
+<div class="contact-bottom section-w3ls main-pos" id="contact">
+    <div class="container">
+        <h3 class="w3ls-title">
+            <span>f</span>ind Us</h3>
+        <div class="clearfix"></div>
+        <div class="contact-main">
+            <div class="col-md-6 col-sm-6 col-xs-6 contact-left-w3ls">
+                <h3 class="h3-w3l">contact info</h3>
+                <div class="mail contact-grid-agileinfo c1">
+                    <div class="contact-icon-wthree">
+                        <span class="fa fa-envelope" aria-hidden="true"></span>
+                    </div>
+                    <div class="contact-text-agileinfo">
+                        <h4>Mail us</h4>
+                        <p>
+                            <a href="mailto:info@example.com">info@example.com</a>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="call contact-grid-agileinfo c2">
+                    <div class="contact-icon-wthree">
+                        <span class="fa fa-phone" aria-hidden="true"></span>
+                    </div>
+                    <div class="contact-text-agileinfo">
+                        <h4>Call us</h4>
+                        <p>+18044261149</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="visit contact-grid-agileinfo">
+                    <div class="contact-icon-wthree">
+                        <span class="fa fa-home" aria-hidden="true"></span>
+                    </div>
+                    <div class="contact-text-agileinfo">
+                        <h4>Visit us</h4>
+                        <p>sed do eiusmod vally</p>
+                        <p>New york,U.S.A</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 map">
+                <h3 class="h3-w3l">on the map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387145.86654334463!2d-74.25818682528057!3d40.70531100753592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1492489108677"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //localisation -->
+
+<script>
+    $("#btn_more_about").click(() => {
+        $("#more_about").show();
+        $('html, body').animate({
+            scrollTop: $('#more_about').offset().top - 20
+        }, 'slow');
+    });
+</script>
 <?php }} ?>

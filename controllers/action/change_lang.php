@@ -8,4 +8,10 @@
 
 $_SESSION['lang'] = ($_SESSION['lang'] == "fr") ? "en" : "fr";
 
-header('Location: ./index.php');
+if (isset($_GET['page']) && file_exists(_TPL_ . $_SESSION['lang']  .'/pages/' .
+        str_replace('.', '', $_GET['page']) . '.tpl')) {
+    header('Location: ./index.php?page=' . $_GET['page']);
+}
+else {
+    header('Location: ./index.php');
+}

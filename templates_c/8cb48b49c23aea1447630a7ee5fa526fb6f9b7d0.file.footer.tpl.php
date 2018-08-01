@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 13:53:46
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 10:18:10
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:9424299775b6030d6c0d050-22668300%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cb48b49c23aea1447630a7ee5fa526fb6f9b7d0' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl',
-      1 => 1533038024,
+      1 => 1533111488,
       2 => 'file',
     ),
   ),
@@ -137,7 +137,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </div>
         </div>
         <div class="agileits_w3layouts-copyright">
-            <p>© 2018 Termianl B. Tout droit réservé | Design by UKyz &
+            <p>© 2018 Termianl B. Tout droit réservé | Designé par UKyz &
                 <a href="http://w3layouts.com/" target="=_blank"> W3layouts </a>
             </p>
         </div>

@@ -76,7 +76,7 @@
                             <a href="icons.html" class="menu__link">icons</a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_6">
-                            <a href="contact.html" class="menu__link"> Contact </a>
+                            <a href="index.php?page=contact" class="menu__link"> Contact </a>
                         </li>
                     </ul>
                 </nav>
@@ -84,22 +84,4 @@
         </div>
     </div>
     <!--// header -->
-    <div class="w3_agilits_inner_bottom">
-        <div class="wthree_agile_login">
-            <ul>
-                <li>
-                    <i class="fa fa-phone" aria-hidden="true"></i> (+33) 03 20 01 02 03</li>
-                <li>
-                    <i class="fa fa-envelope-o list-icon" aria-hidden="true"></i>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    <a href="./index.php?action=change_lang">Français</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</div>
 <!--//banner-bottom-->
