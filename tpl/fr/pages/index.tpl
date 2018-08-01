@@ -104,6 +104,8 @@
             </p>
             <p class="about-bottom">Le Terminal B est UN BAR À VOYAGER !
             </p>
+            <br /><br />
+            <a class="hvr-rectangle-out w3_play_icon1" href="./index.php?page=about_us"> See more</a>
         </div>
         <div class="col-md-5 w3ls-row">
             <div class="col-md-6 col-sm-6 wthree-about-left">
@@ -209,6 +211,9 @@
                     <h4>mocktails</h4>
                 </figcaption>
             </figure>
+
+            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="#"> Afficher la carte du
+                restaurant</a>
         </div>
     </div>
 </div>

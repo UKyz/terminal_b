@@ -95,6 +95,8 @@
             <p class="about-bottom">Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
                 blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
                 nec ipsum.</p>
+            <br /><br />
+            <a class="hvr-rectangle-out w3_play_icon1" href="./index.php?page=about_us"> See more</a>
         </div>
         <div class="col-md-5 w3ls-row">
             <div class="col-md-6 col-sm-6 wthree-about-left">
@@ -148,7 +150,7 @@
 <div class="w3ls-services section-w3ls">
     <div class="container">
         <h3 class="w3ls-title">
-            <span>M</span>enu</h3>
+            <span>O</span>ur Restaurants Menu</h3>
         <div class="grid">
             <figure class="col-md-3 col-xs-6 w3l-service-hover">
                 <img src="./web/images/g2.jpg" alt="t1" class="img-responsive" />
@@ -200,6 +202,10 @@
                     <h4>mocktails</h4>
                 </figcaption>
             </figure>
+
+            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="#"> Show
+                the
+                restaurant menu</a>
         </div>
     </div>
 </div>

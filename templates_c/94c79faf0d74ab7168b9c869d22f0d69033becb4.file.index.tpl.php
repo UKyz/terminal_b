@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:00:50
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:56:09
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:14941015185b60320e53a832-20298261%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '94c79faf0d74ab7168b9c869d22f0d69033becb4' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/index.tpl',
-      1 => 1533124846,
+      1 => 1533128102,
       2 => 'file',
     ),
   ),
@@ -116,6 +116,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <p class="about-bottom">Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
                 blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
                 nec ipsum.</p>
+            <br /><br />
+            <a class="hvr-rectangle-out w3_play_icon1" href="./index.php?page=about_us"> See more</a>
         </div>
         <div class="col-md-5 w3ls-row">
             <div class="col-md-6 col-sm-6 wthree-about-left">
@@ -169,7 +171,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="w3ls-services section-w3ls">
     <div class="container">
         <h3 class="w3ls-title">
-            <span>M</span>enu</h3>
+            <span>O</span>ur Restaurants Menu</h3>
         <div class="grid">
             <figure class="col-md-3 col-xs-6 w3l-service-hover">
                 <img src="./web/images/g2.jpg" alt="t1" class="img-responsive" />
@@ -221,6 +223,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <h4>mocktails</h4>
                 </figcaption>
             </figure>
+
+            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="#"> Show
+                the
+                restaurant menu</a>
         </div>
     </div>
 </div>

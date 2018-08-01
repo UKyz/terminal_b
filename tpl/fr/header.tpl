@@ -64,16 +64,7 @@
                             <a href="index.php" class="menu__link"> Accueil </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_2">
-                            <a href="about.html" class="menu__link"> À Propos </a>
-                        </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_3">
-                            <a href="services.html" class="menu__link">Services</a>
-                        </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_4">
-                            <a href="gallery.html" class="menu__link">Galleries</a>
-                        </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_5">
-                            <a href="icons.html" class="menu__link">icons</a>
+                            <a href="index.php?page=about_us" class="menu__link"> À Propos </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_6">
                             <a href="index.php?page=contact" class="menu__link"> Contact </a>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:00:50
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 15:21:20
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11400094855b60320e51f8e4-52189213%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '37dbccd2b3aa038464c1d9fb3ec84f2d27928a39' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/header.tpl',
-      1 => 1533124766,
+      1 => 1533129649,
       2 => 'file',
     ),
   ),
@@ -85,16 +85,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <a href="index.php" class="menu__link"> Home </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_2">
-                            <a href="about.php" class="menu__link"> About Us </a>
-                        </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_3">
-                            <a href="services.html" class="menu__link">Services</a>
-                        </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_4">
-                            <a href="gallery.html" class="menu__link">Gallery</a>
-                        </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_5">
-                            <a href="icons.html" class="menu__link">icons</a>
+                            <a href="index.php?page=about_us" class="menu__link"> About Us </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_6">
                             <a href="index.php?page=contact" class="menu__link"> Contact </a>

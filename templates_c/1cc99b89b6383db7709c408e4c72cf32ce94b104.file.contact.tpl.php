@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:06:07
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:58:04
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6888373685b6177868a2d71-97288634%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1cc99b89b6383db7709c408e4c72cf32ce94b104' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/contact.tpl',
-      1 => 1533125166,
+      1 => 1533128281,
       2 => 'file',
     ),
   ),
@@ -108,45 +108,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="clearfix"></div>
         </div>
     </div>
-</div>
-<!-- //contact -->
-
-<!-- start-smooth-scrolling -->
-<script src="./web/js/move-top.js"></script>
-<script src="./web/js/easing.js"></script>
-<script>
-    jQuery(document).ready(function ($) {
-        $(".scroll").click(function (event) {
-            event.preventDefault();
-
-            $('html,body').animate({
-                scrollTop: $(this.hash).offset().top
-            }, 1000);
-        });
-    });
-</script>
-<!-- //end-smooth-scrolling -->
-
-<!-- smooth-scrolling-of-move-up -->
-<script>
-    $(document).ready(function () {
-        /*
-     var defaults = {
-         containerID: 'toTop', // fading element id
-         containerHoverID: 'toTopHover', // fading element hover id
-         scrollSpeed: 1200,
-         easingType: 'linear'
-     };
-     */
-
-        $().UItoTop({
-            easingType: 'easeOutQuart'
-        });
-
-    });
-</script>
-<script src="./web/js/SmoothScroll.min.js"></script>
-<!-- //smooth-scrolling-of-move-up -->
-<!-- navigation  -->
-<script src="./web/js/main.js"></script>
-<!-- //navigation --><?php }} ?>
+</div><?php }} ?>
