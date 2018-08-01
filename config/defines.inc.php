@@ -6,17 +6,17 @@ if (!isset($_SERVER['DOCUMENT_ROOT'])) {
 }
 
 //SERVEUR DE TESTS
-if ($_SERVER['SERVER_NAME'] == "localhost" OR $_SERVER['SERVER_NAME'] == "sikia.synology.me"
+if ($_SERVER['SERVER_NAME'] == "localhost" OR $_SERVER['SERVER_NAME'] == "victor-fauquembergue.fr"
     OR $_SERVER['SERVER_NAME'] == "192.168.1.59") {
     // Define de la racine du site
-    define('_PATH_', $_SERVER['DOCUMENT_ROOT'] . '/'._ROOT_.'/');
+    define('_PATH_', $_SERVER['DOCUMENT_ROOT'] . '/terminal_b/');
 
     //Défini le serveur d'envoie de mail
     ini_set('SMTP', 'smtp.free.fr');
 }//PROD
 else {
     // Define de la racine du site
-    define('_PATH_', $_SERVER['DOCUMENT_ROOT'] . '/terminal_b/');
+    define('_PATH_', $_SERVER['DOCUMENT_ROOT'] . '/');
 }
 
 // Define du dossier Coeur
