@@ -7,16 +7,10 @@
                     <a href="index.php">Accueil</a>
                 </li>
                 <li>
-                    <a href="about.html">À propos</a>
+                    <a href="index.php?page=about_us">À Propos De Nous</a>
                 </li>
                 <li>
-                    <a href="services.html">Menu</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallerie</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.php?page=contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -26,7 +20,7 @@
                     <h2>
                         <a href="index.php">Terminal B</a>
                     </h2>
-                    <h5 class="f1">À Propos de Nous</h5>
+                    <h5 class="f1">À Propos De Nous</h5>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem atus error sit volupt unde omnis iste
                         iatis un.</p>
                 </div>

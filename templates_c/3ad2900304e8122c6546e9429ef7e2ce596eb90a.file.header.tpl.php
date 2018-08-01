@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 15:21:14
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 16:55:18
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:19690126185b6030d6ab3228-24576669%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3ad2900304e8122c6546e9429ef7e2ce596eb90a' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/header.tpl',
-      1 => 1533129672,
+      1 => 1533135315,
       2 => 'file',
     ),
   ),
@@ -81,7 +81,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div id="m_nav_container" class="m_nav wthree_bg">
                 <nav class="menu menu--sebastian">
                     <ul id="m_nav_list" class="m_nav menu__list">
-                        <li class="m_nav_item menu__item menu__item--current" id="m_nav_item_1">
+                        <li class="m_nav_item menu__item" id="m_nav_item_1">
                             <a href="index.php" class="menu__link"> Accueil </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_2">

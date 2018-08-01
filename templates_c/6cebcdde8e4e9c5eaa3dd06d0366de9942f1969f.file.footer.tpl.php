@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-07-31 13:53:50
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 16:54:44
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1461461255b60320e58f251-43527697%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cebcdde8e4e9c5eaa3dd06d0366de9942f1969f' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/footer.tpl',
-      1 => 1533038024,
+      1 => 1533135270,
       2 => 'file',
     ),
   ),
@@ -28,16 +28,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="index.php?page=about_us">About Us</a>
                 </li>
                 <li>
-                    <a href="services.html">Menu</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.php?page=contact">Contact</a>
                 </li>
             </ul>
         </div>

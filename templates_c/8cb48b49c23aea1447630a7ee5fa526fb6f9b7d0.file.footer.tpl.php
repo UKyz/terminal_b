@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 10:18:10
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 16:55:56
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:9424299775b6030d6c0d050-22668300%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cb48b49c23aea1447630a7ee5fa526fb6f9b7d0' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl',
-      1 => 1533111488,
+      1 => 1533135355,
       2 => 'file',
     ),
   ),
@@ -28,16 +28,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <a href="index.php">Accueil</a>
                 </li>
                 <li>
-                    <a href="about.html">À propos</a>
+                    <a href="index.php?page=about_us">À Propos De Nous</a>
                 </li>
                 <li>
-                    <a href="services.html">Menu</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallerie</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.php?page=contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -47,7 +41,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <h2>
                         <a href="index.php">Terminal B</a>
                     </h2>
-                    <h5 class="f1">À Propos de Nous</h5>
+                    <h5 class="f1">À Propos De Nous</h5>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem atus error sit volupt unde omnis iste
                         iatis un.</p>
                 </div>

@@ -7,16 +7,10 @@
                     <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="index.php?page=about_us">About Us</a>
                 </li>
                 <li>
-                    <a href="services.html">Menu</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.php?page=contact">Contact</a>
                 </li>
             </ul>
         </div>

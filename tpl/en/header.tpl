@@ -60,7 +60,7 @@
             <div id="m_nav_container" class="m_nav wthree_bg">
                 <nav class="menu menu--sebastian">
                     <ul id="m_nav_list" class="m_nav menu__list">
-                        <li class="m_nav_item menu__item menu__item--current" id="m_nav_item_1">
+                        <li class="m_nav_item menu__item" id="m_nav_item_1">
                             <a href="index.php" class="menu__link"> Home </a>
                         </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_2">
