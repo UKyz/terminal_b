@@ -16,7 +16,7 @@ if ($_SERVER['SERVER_NAME'] == "localhost" OR $_SERVER['SERVER_NAME'] == "sikia.
 }//PROD
 else {
     // Define de la racine du site
-    define('_PATH_', $_SERVER['DOCUMENT_ROOT'] . '/');
+    define('_PATH_', $_SERVER['DOCUMENT_ROOT'] . '/terminal_b/');
 }
 
 // Define du dossier Coeur
