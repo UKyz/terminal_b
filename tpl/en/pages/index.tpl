@@ -203,7 +203,7 @@
                 </figcaption>
             </figure>
 
-            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="#"> Show
+            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="index.php?page=menus"> Show
                 the
                 restaurant menu</a>
         </div>

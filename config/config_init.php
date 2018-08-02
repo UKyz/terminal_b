@@ -22,11 +22,11 @@ foreach ($files as $filename)
 }
 
 // Connexion Database
-/*try {
+try {
     if ($_SERVER['SERVER_NAME'] == "localhost" OR $_SERVER['SERVER_NAME'] == "sikia.synology.me"
         OR $_SERVER['SERVER_NAME'] == "192.168.1.59") {
         $host = "localhost";
-        $dbname = "domaine_les_reynals";
+        $dbname = "terminal_b";
         $dbuser = "root";
         $dbmdp = "admin";
         $dbport = "3306";
@@ -43,7 +43,7 @@ foreach ($files as $filename)
 } catch (Exception $e) {
     echo "Problème de connexion à la base de donnée ...<br>".$e;
     die();
-}*/
+}
 
 // Initialisation Smarty
 $smarty = new Smarty();

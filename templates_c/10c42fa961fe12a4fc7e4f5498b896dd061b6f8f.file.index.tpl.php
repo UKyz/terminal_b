@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:56:08
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-02 14:41:14
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1436928525b6030d6bf5277-01720877%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '10c42fa961fe12a4fc7e4f5498b896dd061b6f8f' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/index.tpl',
-      1 => 1533128102,
+      1 => 1533213672,
       2 => 'file',
     ),
   ),
@@ -126,7 +126,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <p class="about-bottom">Le Terminal B est UN BAR À VOYAGER !
             </p>
             <br /><br />
-            <a class="hvr-rectangle-out w3_play_icon1" href="./index.php?page=about_us"> See more</a>
+            <a class="hvr-rectangle-out w3_play_icon1" href="./index.php?page=about_us"> En savoir plus</a>
         </div>
         <div class="col-md-5 w3ls-row">
             <div class="col-md-6 col-sm-6 wthree-about-left">
@@ -233,7 +233,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </figcaption>
             </figure>
 
-            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="#"> Afficher la carte du
+            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="index.php?page=menus"> Afficher la carte du
                 restaurant</a>
         </div>
     </div>

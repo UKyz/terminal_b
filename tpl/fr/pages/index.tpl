@@ -105,7 +105,7 @@
             <p class="about-bottom">Le Terminal B est UN BAR À VOYAGER !
             </p>
             <br /><br />
-            <a class="hvr-rectangle-out w3_play_icon1" href="./index.php?page=about_us"> See more</a>
+            <a class="hvr-rectangle-out w3_play_icon1" href="./index.php?page=about_us"> En savoir plus</a>
         </div>
         <div class="col-md-5 w3ls-row">
             <div class="col-md-6 col-sm-6 wthree-about-left">
@@ -212,7 +212,7 @@
                 </figcaption>
             </figure>
 
-            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="#"> Afficher la carte du
+            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="index.php?page=menus"> Afficher la carte du
                 restaurant</a>
         </div>
     </div>
