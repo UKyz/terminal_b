@@ -10,6 +10,9 @@
                     <a href="index.php?page=about_us">About Us</a>
                 </li>
                 <li>
+                    <a href="index.php?page=menus">Our Menus</a>
+                </li>
+                <li>
                     <a href="index.php?page=contact">Contact</a>
                 </li>
             </ul>

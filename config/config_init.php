@@ -28,7 +28,7 @@ try {
         $host = "localhost";
         $dbname = "terminal_b";
         $dbuser = "root";
-        $dbmdp = "admin";
+        $dbmdp = "root";
         $dbport = "3306";
     } else {
         $host = "db745437427.db.1and1.com";

@@ -66,7 +66,10 @@
                         <li class="m_nav_item menu__item" id="moble_nav_item_2">
                             <a href="index.php?page=about_us" class="menu__link"> About Us </a>
                         </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_6">
+                        <li class="m_nav_item menu__item" id="moble_nav_item_3">
+                            <a href="index.php?page=menus" class="menu__link"> Menus </a>
+                        </li>
+                        <li class="m_nav_item menu__item" id="moble_nav_item_4">
                             <a href="index.php?page=contact" class="menu__link"> Contact </a>
                         </li>
                     </ul>
