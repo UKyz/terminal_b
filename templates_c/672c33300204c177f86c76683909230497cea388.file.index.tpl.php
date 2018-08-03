@@ -1,4 +1,29 @@
-
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 20:27:05
+         compiled from "/Applications/MAMP/htdocs/terminal_b/tpl/private/index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:13947616415b6496bb0bac78-01309804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '672c33300204c177f86c76683909230497cea388' => 
+    array (
+      0 => '/Applications/MAMP/htdocs/terminal_b/tpl/private/index.tpl',
+      1 => 1533320823,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '13947616415b6496bb0bac78-01309804',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_5b6496bb100197_38408176',
+  'variables' => 
+  array (
+    'menu_private_script' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5b6496bb100197_38408176')) {function content_5b6496bb100197_38408176($_smarty_tpl) {?>
 <div class="w3_agilits_inner_bottom">
     <div class="wthree_agile_login">
         <ul>
@@ -30,7 +55,8 @@
     <div class="container city" id="change_menu">
         <h4>Changer le menu</h4>
         <br />
-        {$menu_private_script}
+        <?php echo $_smarty_tpl->tpl_vars['menu_private_script']->value;?>
+
     </div>
 
     <div class="container city" id="add_menu" style="display:none">
@@ -89,4 +115,4 @@
         }
         document.getElementById(cityName).style.display = "block";
     }
-</script>
+</script><?php }} ?>
