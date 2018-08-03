@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 13:47:49
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 16:28:42
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/private/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2937845045b6427b81b1b37-44412560%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '83a886f38e35b50351fc86f184fe4cf13e60d8f9' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/private/index.tpl',
-      1 => 1533296866,
+      1 => 1533306518,
       2 => 'file',
     ),
   ),
@@ -32,10 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <i class="fa fa-envelope-o list-icon" aria-hidden="true"></i>
                 <a href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li>
-                <i class="fa fa-wrench" aria-hidden="true"></i>
-                <a href="./index.php?action=change_lang&page=contact">English</a>
-            </li>
         </ul>
     </div>
 </div>
@@ -51,28 +47,52 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <br />
         <h4>Changer le menu</h4>
         <br />
-        <!--<div class="contact-right-w3l">
-            <form action="#" method="post">
+        <?php echo $_smarty_tpl->tpl_vars['menu_private_script']->value;?>
+
+        <br />
+        <br />
+        <h4>Ajouter au menu</h4>
+
+        <div class="contact-right-w3l">
+            <form action="index.php?action=add_menu" method="post">
                 <div class="contact-input">
-                    <input type="text" class="name" name="name" placeholder="Prénom" required="">
+                    <input type="text" class="name" name="name_fr" placeholder="Nom Français" required="">
                 </div>
                 <div class="contact-input">
-                    <input type="text" class="name" name="name" placeholder="Nom" required="">
+                    <input type="text" class="name" name="name_en" placeholder="Nom Anglais" required="">
                 </div>
                 <div class="contact-input">
-                    <input type="email" class="name" name="name" placeholder="Email" required="">
+                    <textarea placeholder="Détail Français" required="" name="detail_fr"></textarea>
                 </div>
                 <div class="contact-input">
-                    <input type="text" class="name" name="name" placeholder="Sujet" required="">
+                    <textarea placeholder="Détail Anglais" required="" name="detail_en"></textarea>
                 </div>
                 <div class="contact-input">
-                    <textarea placeholder="Votre Message" required=""></textarea>
+                    <input type="text" class="name" name="type_fr"
+                           placeholder="Type 1 Français (Boissons, Nourritures ...)" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="text" class="name" name="type_en"
+                           placeholder="Type 1 Anglais (Drinks, Foods ...)" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="text" class="name" name="type2_fr"
+                           placeholder="Type 2 Français (Bières, Boissons fraîches ...)" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="text" class="name" name="type2_en"
+                           placeholder="Type 2 Anglais (Beers, Cold drinks ...)" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="number" class="name" name="price" placeholder="Prix (en €)" required="">
+                </div>
+                <div class="contact-input">
+                    <input type="checkbox" class="name" name="can_command" value="yes">
+                    <label>Commandable</label>
                 </div>
                 <input type="submit" value="ENVOYER">
             </form>
-        </div>-->
-        <?php echo $_smarty_tpl->tpl_vars['menu_private_script']->value;?>
-
+        </div>
         <div class="clearfix"></div>
     </div>
 </div><?php }} ?>

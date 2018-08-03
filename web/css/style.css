@@ -1302,6 +1302,7 @@ h3.title-contact {
 }
 
 .contact-right-w3l input[type="text"],
+.contact-right-w3l input[type="number"],
 .contact-right-w3l input[type="email"],
 .contact-right-w3l input[type="password"]{
     border: none;
@@ -1318,6 +1319,7 @@ h3.title-contact {
 }
 
 .contact-right-w3l input[type="text"]:nth-child(1),
+.contact-right-w3l input[type="number"]:nth-child(1),
 .contact-right-w3l input[type="password"]:nth-child(1),
 .contact-right-w3l input[type="email"] {
     margin: 1%;
@@ -2334,6 +2336,7 @@ figure.w3l-service-hover:hover p {
     }
     .contact-right-w3l input[type="text"],
     .contact-right-w3l input[type="password"],
+    .contact-right-w3l input[type="number"],
     .contact-right-w3l input[type="email"] {
         padding: 10px 15px;
     }
@@ -2581,6 +2584,7 @@ figure.w3l-service-hover:hover p {
     }
     .contact-right-w3l input[type="text"],
     .contact-right-w3l input[type="password"],
+    .contact-right-w3l input[type="number"],
     .contact-right-w3l input[type="email"] {
         width: 100%;
     }

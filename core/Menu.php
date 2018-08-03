@@ -214,4 +214,26 @@ class Menu
         $req = $bdd->prepare('DELETE FROM menus WHERE id = :id');
         $req->execute(array('id' => $id));
     }
+
+    public static function add_menu($tab) {
+
+        echo "Salut";
+        echo ($tab['can_command']) ? "yes" : "no";
+        print_r($tab);
+
+        global $bdd;
+        $req = $bdd->prepare('INSERT INTO menus (name, detail, price, type, type_en, type2, type2_en, can_command)
+          VALUES(:name, :detail, :price, :type, :type_en, type2, :type2_en, :can_command)');
+
+        $req->execute(array(
+            'name' => stripslashes($tab['name_fr'] . '/' . $tab['name_en']),
+            'detail' => stripslashes($tab['detail_fr'] . '/' . $tab['detail_en']),
+            'price' => $tab['price'],
+            'type' => $tab['type_fr'],
+            'type_en' => $tab['type_en'],
+            'type2' => $tab['type2_fr'],
+            'type2_en' => $tab['type2_en'],
+            'can_command' => ($tab['can_command']) ? "yes" : "no"));
+
+    }
 }
