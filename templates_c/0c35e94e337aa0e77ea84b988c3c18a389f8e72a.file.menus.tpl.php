@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 10:41:25
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 11:13:32
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/menus.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:17862551005b640a8cc89182-39057635%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0c35e94e337aa0e77ea84b988c3c18a389f8e72a' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/menus.tpl',
-      1 => 1533285682,
+      1 => 1533287611,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_5b640a8cc8e3e8_69433567',
   'variables' => 
   array (
-    'menu_script_en' => 0,
+    'menu_drinks_script' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -47,12 +47,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="section-w3ls agileits-gallery text-center" id="portfolio">
     <div class="container">
         <h3 class="w3ls-title">
-            <span>O</span>ur Menu</h3>
+            <span>O</span>ur Menus</h3>
         <br /><br />
         <h4>Aperitifs</h4><br />
 
-        <?php echo $_smarty_tpl->tpl_vars['menu_script_en']->value;?>
+        <?php echo $_smarty_tpl->tpl_vars['menu_drinks_script']->value;?>
 
+
+        <br /><br /><h4>Foods</h4><br />
 
     </div>
 </div><?php }} ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 10:35:08
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 11:29:15
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/menus.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:15349155065b62fbed488859-01521301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e0d0c6e781b109310a8247e22f61551595510815' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/pages/menus.tpl',
-      1 => 1533285076,
+      1 => 1533288545,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_5b62fbed4bb9a9_23759004',
   'variables' => 
   array (
-    'menu_script_fr' => 0,
+    'menu_boissons_script' => 0,
+    'menu_nourritures_script' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -51,7 +52,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <br /><br />
         <h4>Apéritifs</h4><br />
 
-        <?php echo $_smarty_tpl->tpl_vars['menu_script_fr']->value;?>
+        <?php echo $_smarty_tpl->tpl_vars['menu_boissons_script']->value;?>
+
+
+        <br /><br /><h4>Nourritures</h4><br />
+
+        <?php echo $_smarty_tpl->tpl_vars['menu_nourritures_script']->value;?>
 
 
     </div>

@@ -8,13 +8,13 @@
 
 class Menu
 {
-    public static function showMenuFr() {
+    public static function showMenusFr($type) {
         $script_menu = "";
 
         global $bdd;
         $req = $bdd->prepare('SELECT * FROM menus WHERE type = :type ORDER BY type2');
         $req->execute(array(
-            'type' => "Boissons"
+            'type' => $type
         ));
 
         $script_menu .= "<table>
@@ -56,13 +56,13 @@ class Menu
         return $script_menu;
     }
 
-    public static function showMenuEn() {
+    public static function showMenusEn($type) {
         $script_menu = "";
 
         global $bdd;
         $req = $bdd->prepare('SELECT * FROM menus WHERE type_en = :type_en ORDER BY type2');
         $req->execute(array(
-            'type_en' => "Drinks"
+            'type_en' => $type
         ));
 
         $script_menu .= "<table>

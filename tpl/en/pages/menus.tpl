@@ -22,11 +22,13 @@
 <div class="section-w3ls agileits-gallery text-center" id="portfolio">
     <div class="container">
         <h3 class="w3ls-title">
-            <span>O</span>ur Menu</h3>
+            <span>O</span>ur Menus</h3>
         <br /><br />
         <h4>Aperitifs</h4><br />
 
-        {$menu_script_en}
+        {$menu_drinks_script}
+
+        <br /><br /><h4>Foods</h4><br />
 
     </div>
 </div>

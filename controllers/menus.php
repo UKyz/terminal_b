@@ -6,6 +6,10 @@
  * Time: 15:36
  */
 
-$smarty->assign('menu_script_fr', Menu::showMenuFr());
+$smarty->assign('menu_boissons_script', Menu::showMenusFr("Boissons"));
 
-$smarty->assign('menu_script_en', Menu::showMenuEn());
+$smarty->assign('menu_nourritures_script', Menu::showMenusFr("Nourritures"));
+
+$smarty->assign('menu_drinks_script', Menu::showMenusEn("Drinks"));
+
+$smarty->assign('menu_foods_script', Menu::showMenusEn("Foods"));

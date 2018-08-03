@@ -26,7 +26,11 @@
         <br /><br />
         <h4>Apéritifs</h4><br />
 
-        {$menu_script_fr}
+        {$menu_boissons_script}
+
+        <br /><br /><h4>Nourritures</h4><br />
+
+        {$menu_nourritures_script}
 
     </div>
 </div>
