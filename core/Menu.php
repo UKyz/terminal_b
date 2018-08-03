@@ -29,7 +29,7 @@ class Menu
             $script_menu .= "<tr>
                                     <th>" . $donnees['name'] . "</th>
                                     <th>" . $donnees['detail'] . "</th>
-                                    <th>" . $donnees['price'] . "€</th>
+                                    <th>" . number_format($donnees['price'], 2) . "€</th>
                                 </tr>";
         }
 
