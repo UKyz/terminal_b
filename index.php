@@ -17,6 +17,8 @@ if (isset($_GET['action']) && file_exists(_CTRL_ . 'action/' . str_replace('.', 
     include(_CTRL_ . 'action/' . $_GET['action'] . '.php');
 } else if (isset($_GET['page']) && file_exists(_CTRL_ . str_replace('.', '', $_GET['page']) . '.php')) {
     include(_CTRL_ . $_GET['page'] . '.php');
+} else if (isset($_GET['private']) && file_exists(_CTRL_ . 'private/' . $_GET['private'] . '.php')) {
+    include(_CTRL_ . 'private/' . $_GET['private'] . '.php');
 } else {
     include(_CTRL_ . 'index.php');
 }
@@ -27,6 +29,9 @@ $smarty->display(_TPL_ . $_SESSION['lang']  .'/header.tpl');
 if (isset($_GET['page']) && file_exists(_TPL_ . $_SESSION['lang']  .'/pages/' . str_replace('.', '', $_GET['page']) .
         '.tpl')) {
     $smarty->display(_TPL_ . $_SESSION['lang']  .'/pages/' . $_GET['page'] . '.tpl');
+} else if (isset($_GET['private']) && file_exists(_TPL_  .'/private/' . str_replace('.', '', $_GET['private']) .
+        '.tpl')) {
+    $smarty->display(_TPL_  .'/private/' . $_GET['private'] . '.tpl');
 } else {
     $smarty->assign('current_page', "index");
     $smarty->display(_TPL_ . $_SESSION['lang']  .'/pages/index.tpl');
