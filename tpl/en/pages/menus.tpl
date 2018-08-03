@@ -22,30 +22,11 @@
 <div class="section-w3ls agileits-gallery text-center" id="portfolio">
     <div class="container">
         <h3 class="w3ls-title">
-            <span>M</span>ore About Us</h3>
+            <span>O</span>ur Menu</h3>
         <br /><br />
-        <h4>What is the concept of the Terminal B ?</h4><br />
-        <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-            blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-            nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.</p>
-        <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-            blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-            nec ipsum.</p>
-        <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-            blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-            nec ipsum.</p>
+        <h4>Aperitifs</h4><br />
 
-        <br />
-        <h4>What is the concept of the Terminal B ?</h4><br />
-        <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-            blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-            nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.</p>
-        <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-            blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-            nec ipsum.</p>
-        <p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla
-            blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit. Proin vel enim
-            nec ipsum.</p>
+        {$menu_script_en}
 
     </div>
 </div>

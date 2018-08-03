@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 16:55:56
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 09:15:26
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:9424299775b6030d6c0d050-22668300%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8cb48b49c23aea1447630a7ee5fa526fb6f9b7d0' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/fr/footer.tpl',
-      1 => 1533135355,
+      1 => 1533280514,
       2 => 'file',
     ),
   ),
@@ -29,6 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </li>
                 <li>
                     <a href="index.php?page=about_us">À Propos De Nous</a>
+                </li>
+                <li>
+                    <a href="index.php?page=menus">Nos Menus</a>
                 </li>
                 <li>
                     <a href="index.php?page=contact">Contact</a>

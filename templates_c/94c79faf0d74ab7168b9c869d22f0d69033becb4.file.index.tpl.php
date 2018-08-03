@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-01 14:56:09
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 10:38:41
          compiled from "/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:14941015185b60320e53a832-20298261%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '94c79faf0d74ab7168b9c869d22f0d69033becb4' => 
     array (
       0 => '/Users/victorfauquembergue/Sites/terminal_b/tpl/en/pages/index.tpl',
-      1 => 1533128102,
+      1 => 1533213672,
       2 => 'file',
     ),
   ),
@@ -224,7 +224,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </figcaption>
             </figure>
 
-            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="#"> Show
+            <a class="hvr-rectangle-out w3_play_icon1" style="font-size: 1.5em;" href="index.php?page=menus"> Show
                 the
                 restaurant menu</a>
         </div>
