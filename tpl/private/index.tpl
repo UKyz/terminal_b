@@ -67,7 +67,7 @@
                            placeholder="Type 2 Anglais (Beers, Cold drinks ...)" required="">
                 </div>
                 <div class="contact-input">
-                    <input type="number" class="name" name="price" placeholder="Prix (en €)" required="">
+                    <input type="text" class="name" name="price" placeholder="Prix (en €)" required="">
                 </div>
                 <div class="contact-input">
                     <input type="checkbox" class="name" name="can_command" value="yes">

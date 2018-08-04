@@ -222,18 +222,21 @@ class Menu
         print_r($tab);
 
         global $bdd;
-        $req = $bdd->prepare('INSERT INTO menus (name, detail, price, type, type_en, type2, type2_en, can_command)
-          VALUES(:name, :detail, :price, :type, :type_en, type2, :type2_en, :can_command)');
+        $req = $bdd->prepare('INSERT INTO menus (name, detail, price, type, type_en, type2, type2_en, can_command) 
+VALUES(:name, :detail, :price, :type, :type_en, :type2, :type2_en, :can_command)');
 
+        echo "Coucou";
         $req->execute(array(
-            'name' => stripslashes($tab['name_fr'] . '/' . $tab['name_en']),
-            'detail' => stripslashes($tab['detail_fr'] . '/' . $tab['detail_en']),
+            'name' => $tab['name_fr'] . '/' . $tab['name_en'],
+            'detail' => $tab['detail_fr'] . '/' . $tab['detail_fr'],
             'price' => $tab['price'],
             'type' => $tab['type_fr'],
             'type_en' => $tab['type_en'],
             'type2' => $tab['type2_fr'],
             'type2_en' => $tab['type2_en'],
             'can_command' => ($tab['can_command']) ? "yes" : "no"));
+
+        echo "Wesh";
 
     }
 }

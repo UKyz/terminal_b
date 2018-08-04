@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2018-08-03 20:27:05
+<?php /* Smarty version Smarty-3.1.12, created on 2018-08-04 16:06:43
          compiled from "/Applications/MAMP/htdocs/terminal_b/tpl/private/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13947616415b6496bb0bac78-01309804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '672c33300204c177f86c76683909230497cea388' => 
     array (
       0 => '/Applications/MAMP/htdocs/terminal_b/tpl/private/index.tpl',
-      1 => 1533320823,
+      1 => 1533391600,
       2 => 'file',
     ),
   ),
@@ -93,7 +93,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                            placeholder="Type 2 Anglais (Beers, Cold drinks ...)" required="">
                 </div>
                 <div class="contact-input">
-                    <input type="number" class="name" name="price" placeholder="Prix (en €)" required="">
+                    <input type="text" class="name" name="price" placeholder="Prix (en €)" required="">
                 </div>
                 <div class="contact-input">
                     <input type="checkbox" class="name" name="can_command" value="yes">
