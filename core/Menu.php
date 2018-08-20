@@ -217,15 +217,10 @@ class Menu
 
     public static function add_menu($tab) {
 
-        echo "Salut";
-        echo ($tab['can_command']) ? "yes" : "no";
-        print_r($tab);
-
         global $bdd;
         $req = $bdd->prepare('INSERT INTO menus (name, detail, price, type, type_en, type2, type2_en, can_command) 
 VALUES(:name, :detail, :price, :type, :type_en, :type2, :type2_en, :can_command)');
 
-        echo "Coucou";
         $req->execute(array(
             'name' => $tab['name_fr'] . '/' . $tab['name_en'],
             'detail' => $tab['detail_fr'] . '/' . $tab['detail_fr'],
@@ -235,8 +230,6 @@ VALUES(:name, :detail, :price, :type, :type_en, :type2, :type2_en, :can_command)
             'type2' => $tab['type2_fr'],
             'type2_en' => $tab['type2_en'],
             'can_command' => ($tab['can_command']) ? "yes" : "no"));
-
-        echo "Wesh";
 
     }
 }

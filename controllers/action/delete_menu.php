@@ -6,6 +6,6 @@
  * Time: 15:40
  */
 
-Menu::delete-menu($_POST['id']);
+Menu::delete_menu($_POST['id']);
 
-header('Location: index.php?private=index');
+header('Location: index.php?private=index&type=delete_menu');

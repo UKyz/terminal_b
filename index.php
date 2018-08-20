@@ -31,6 +31,11 @@ if (isset($_GET['page']) && file_exists(_TPL_ . $_SESSION['lang']  .'/pages/' . 
     $smarty->display(_TPL_ . $_SESSION['lang']  .'/pages/' . $_GET['page'] . '.tpl');
 } else if (isset($_GET['private']) && file_exists(_TPL_  .'/private/' . str_replace('.', '', $_GET['private']) .
         '.tpl')) {
+    echo "Wallah";
+    if (isset($_GET['type']) && file_exists(_TPL_ . 'modal/' . $_GET['type'] . '.tpl')) {
+        echo "Salut";
+        include(_TPL_ . 'modal/' . $_GET['type'] . '.tpl');
+    }
     $smarty->display(_TPL_  .'/private/' . $_GET['private'] . '.tpl');
 } else {
     $smarty->assign('current_page', "index");

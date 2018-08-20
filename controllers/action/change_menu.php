@@ -8,4 +8,4 @@
 
 Menu::change_menu($_POST);
 
-header('Location: index.php?private=index');
+header('Location: index.php?private=index&type=change_menu');
